@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "pc-control-bot"
+dependencies = [
+    "python-telegram-bot>=20.0",
+    "wakeonlan>=2.0",
+    "flask>=2.0"
+]
