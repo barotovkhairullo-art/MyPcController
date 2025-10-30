@@ -1,0 +1,8 @@
+language = "python3"
+run = "python wol_bot.py"
+
+[packages]
+requests = "*"
+
+[env]
+PYTHONUNBUFFERED = "1"
